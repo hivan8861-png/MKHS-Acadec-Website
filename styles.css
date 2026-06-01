@@ -3,3 +3,12 @@ a{
     color:red;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+img{
+    width: 50%;
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
