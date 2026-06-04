@@ -1,8 +1,4 @@
-a{
-    text-decoration: none;
-    color:red;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 img{
     width: 40%;
     min-width: 150px;
@@ -17,4 +13,28 @@ figure{
 }
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aliceblue;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(216, 189, 189);
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px pink;
+    border-radius: 5px;
+    transition: background-color 0.15s linear;
+    background-color: rgb(216, 189, 189);
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: pink;
 }
